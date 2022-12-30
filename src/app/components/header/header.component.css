@@ -1,8 +1,8 @@
-nav {
+#menu {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 1em;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #777;
 }
 
 .brand,
@@ -10,6 +10,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1em;
 }
 
 .brand img {
@@ -27,6 +28,7 @@ nav {
 
 .links li {
   margin-right: 1em;
+  margin-top: 3px;
   list-style: none;
 }
 
